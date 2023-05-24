@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="space-y-4 min-w-[15%]">
           <a
             href="/"
-            className="text-[#fa5a5f] hover:text-white flex font-bold text-[1.45rem] w-[40px] space-x-2 text-center"
+            className="text-[#fa5a5f] hover:text-white flex font-medium items-center text-[1.45rem] w-[40px] space-x-2 text-center"
           >
             <img alt="paws" src="https://assets.linkvite.io/cdn/favicon.webp" />
             <span>Linkvite</span>
@@ -68,42 +68,48 @@ const Footer = () => {
         <section>© 2023 Linkvite. All rights reserved.</section>
         <section>
           <div className="flex">
-            <a
-              href="https://twitter.com/tryLinkvite"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mb-[1.5rem] mr-[15px] w-[30px]"
-            >
-              <img
-                src="https://linkvite.io/_next/static/media/twitter.dd651835.svg"
-                alt="Twitter Icon"
-                className="sc-fnGiBr iENTtq"
-              />
-            </a>
-            <a
-              href="https://github.com/linkvite"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mb-[1.5rem] mr-[15px] w-[30px]"
-            >
-              <img
-                src="https://linkvite.io/_next/static/media/github.2c3ab107.svg"
-                alt="Github Icon"
-                className="sc-fnGiBr iENTtq"
-              />
-            </a>
-            <a
-              href="mailto:contact@linkvite.io"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mb-[1.5rem] mr-[15px] w-[30px]"
-            >
-              <img
-                src="https://linkvite.io/_next/static/media/email.1102192c.svg"
-                alt="Email Icon"
-                className="sc-fnGiBr iENTtq"
-              />
-            </a>
+            <div className="w-[30px] mr-[15px]">
+              <a
+                href="https://twitter.com/tryLinkvite"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mb-[1.5rem] mr-[15px] w-[30px]"
+              >
+                <img
+                  src="https://linkvite.io/_next/static/media/twitter.dd651835.svg"
+                  alt="Twitter Icon"
+                  className="sc-fnGiBr iENTtq"
+                />
+              </a>
+            </div>
+            <div className="w-[30px] mr-[15px]">
+              <a
+                href="https://github.com/linkvite"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mb-[1.5rem] mr-[15px] w-[30px]"
+              >
+                <img
+                  src="https://linkvite.io/_next/static/media/github.2c3ab107.svg"
+                  alt="Github Icon"
+                  className="sc-fnGiBr iENTtq"
+                />
+              </a>
+            </div>
+            <div className="w-[30px]">
+              <a
+                href="mailto:contact@linkvite.io"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mb-[1.5rem] mr-[15px] w-[30px]"
+              >
+                <img
+                  src="https://linkvite.io/_next/static/media/email.1102192c.svg"
+                  alt="Email Icon"
+                  className="sc-fnGiBr iENTtq"
+                />
+              </a>
+            </div>
           </div>
         </section>
       </div>

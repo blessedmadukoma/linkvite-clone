@@ -30,6 +30,10 @@ body {
   @apply border-t-[1.5px] border-t-[rgba(72,72,74,0.4)] border-solid;
 }
 
+.border-bottom {
+  @apply border-b-[1.5px] border-b-[rgba(72,72,74,0.4)] border-solid;
+}
+
 .sub-title {
   @apply text-base text-[#fff] font-semibold;
 }
