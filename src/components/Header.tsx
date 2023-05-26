@@ -10,7 +10,7 @@ const Header = () => {
   const hover = `hover:text-[#fa5a5f]`;
 
   return (
-    <section className="flex justify-between items-center p-[1rem] px-[5rem] w-full border-bottom sticky top-0 backdrop-blur-sm">
+    <nav className="flex justify-between items-center p-[1rem] px-[5rem] w-full border-bottom sticky top-0 backdrop-blur-sm z-50">
       <div className="flex w-full justify-between items-center self-center p-0">
         <div className="min-w-[15%]">
           <a
@@ -69,7 +69,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </section>
+    </nav>
   );
 };
 
