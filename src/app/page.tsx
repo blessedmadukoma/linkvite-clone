@@ -1,13 +1,14 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Image from "next/image";
-import FileIcon from "@/icons/icons";
+// @ts-ignore
+// import { FileIcon, CollaborationIcon } from "@/icons/icons";
 
 export default function Home() {
   return (
     <main className="min-h-screen">
       <Header />
-      <section className="items-center text-center p-10">
+      <section className="items-center text-center px-10 py-4">
         {/* Hero section */}
         <section className="p-20  h-[calc(100vh_-_4rem)] items-center text-center space-y-10 m-auto max-w-[1280px]">
           <div>
@@ -54,53 +55,71 @@ export default function Home() {
             Easily manage, share, and access bookmarks and files on all devices
             using Linkvite.
           </div>
-
           {/* grid collection */}
-          <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-4 my-[1.5rem] text-left gap-16">
-            <section className="">
-              <h2>Collections</h2>
-              <span>
+          <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-4 my-[2rem] text-left gap-16 font-extralight tracking-wider">
+            <section className="space-y-2">
+              <div>
+                <h2 className="text-lg">Collections</h2>
+              </div>
+              <p className="text-[#bdbdbd] tracking-wide">
                 Group bookmarks into organized, nested collections for easy
                 access.
-              </span>
+              </p>
             </section>
-            <section>
-              <h2>Collaboration</h2>
-              <span>
+            <section className="space-y-2">
+              <div>
+                <h2 className="text-lg">Collaboration</h2>
+              </div>
+              <p className="text-[#bdbdbd]">
                 Share and work on collections with others using custom invite
                 links.
-              </span>
+              </p>
             </section>
-            <section>
-              <h2>Reminders</h2>
-              <span>
+            <section className="space-y-2">
+              <div>
+                <h2 className="text-lg">Reminders</h2>
+              </div>
+              <p className="text-[#bdbdbd]">
                 Set reminders for important bookmarks or collections to stay on
                 track.
-              </span>
+              </p>
             </section>
-            <section className="flex flex-col">
+            <section className="flex flex-col space-y-3">
               <div>
-                <h2>Searching</h2>
-                {/* @ts-ignore */}
-                <FileIcon />
+                <h2 className="text-lg">Searching</h2>
+
+                {/* <FileIcon /> */}
               </div>
-              <span>Quickly find anything with our powerful search tool.</span>
+              <p className="text-[#bdbdbd]">
+                Quickly find anything with our powerful search tool.
+              </p>
             </section>
-            <section>
-              <h2>Use Anywhere</h2>
-              <span>
+            <section className="space-y-3">
+              <div>
+                <h2 className="text-lg">Use Anywhere</h2>
+                {/* <CollaborationIcon /> */}
+              </div>
+              <p className="text-[#bdbdbd]">
                 Access Linkvite on iOS, Android, and desktop devices with
                 real-time syncing.
-              </span>
+              </p>
             </section>
-            <section>
-              <h2>Discussions</h2>
-              <span>
+            <section className="space-y-3">
+              <div>
+                <h2>Discussions</h2>
+              </div>
+              <p className="text-[#bdbdbd]">
                 Communicate and share ideas within bookmarks through comments.
-              </span>
+              </p>
             </section>
           </section>
         </section>
+      </section>
+
+      {/* Coming soon */}
+      <section className="bg-[#bdbdbd] py-10 mb-4 flex flex-col md:flex-row lg:flex-row justify-between items-center">
+        <div>1</div>
+        <div>2</div>
       </section>
       <Footer />
     </main>
