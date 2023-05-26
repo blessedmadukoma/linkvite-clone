@@ -1,8 +1,15 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Image from "next/image";
-// @ts-ignore
-// import { FileIcon, CollaborationIcon } from "@/icons/icons";
+
+import {
+  FileIcon,
+  CollaborationIcon,
+  BellIcon,
+  SearchIcon,
+  AccessIcon,
+  ChatIcon,
+} from "@/icons/icons";
 
 export default function Home() {
   return (
@@ -56,9 +63,12 @@ export default function Home() {
             using Linkvite.
           </div>
           {/* grid collection */}
-          <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-4 my-[2rem] text-left gap-16 font-extralight tracking-wider">
-            <section className="space-y-2">
-              <div>
+          <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-4 my-[2rem] text-left gap-16 font-thin tracking-wider">
+            <section className="space-y-4">
+              <div className="flex space-x-2 items-center">
+                <div className="w-[30px] h-[30px] rounded bg-[#fa5a5f] flex flex-row items-center justify-center">
+                  <FileIcon />
+                </div>
                 <h2 className="text-lg">Collections</h2>
               </div>
               <p className="text-[#bdbdbd] tracking-wide">
@@ -66,8 +76,11 @@ export default function Home() {
                 access.
               </p>
             </section>
-            <section className="space-y-2">
-              <div>
+            <section className="space-y-4">
+              <div className="flex space-x-2 items-center">
+                <div className="w-[30px] h-[30px] rounded bg-[#1db954] flex flex-row items-center justify-center">
+                  <CollaborationIcon />
+                </div>
                 <h2 className="text-lg">Collaboration</h2>
               </div>
               <p className="text-[#bdbdbd]">
@@ -75,8 +88,11 @@ export default function Home() {
                 links.
               </p>
             </section>
-            <section className="space-y-2">
-              <div>
+            <section className="space-y-4">
+              <div className="flex space-x-2 items-center">
+                <div className="w-[30px] h-[30px] rounded bg-[#3f51b5] flex flex-row items-center justify-center">
+                  <BellIcon />
+                </div>
                 <h2 className="text-lg">Reminders</h2>
               </div>
               <p className="text-[#bdbdbd]">
@@ -84,28 +100,34 @@ export default function Home() {
                 track.
               </p>
             </section>
-            <section className="flex flex-col space-y-3">
-              <div>
+            <section className="flex flex-col space-y-4">
+              <div className="flex space-x-2 items-center">
+                <div className="w-[30px] h-[30px] rounded bg-[#2196f3] flex flex-row items-center justify-center">
+                  <SearchIcon />
+                </div>
                 <h2 className="text-lg">Searching</h2>
-
-                {/* <FileIcon /> */}
               </div>
               <p className="text-[#bdbdbd]">
                 Quickly find anything with our powerful search tool.
               </p>
             </section>
-            <section className="space-y-3">
-              <div>
+            <section className="space-y-4">
+              <div className="flex space-x-2 items-center">
+                <div className="w-[30px] h-[30px] rounded bg-[#ff4747] flex flex-row items-center justify-center">
+                  <AccessIcon />
+                </div>
                 <h2 className="text-lg">Use Anywhere</h2>
-                {/* <CollaborationIcon /> */}
               </div>
               <p className="text-[#bdbdbd]">
                 Access Linkvite on iOS, Android, and desktop devices with
                 real-time syncing.
               </p>
             </section>
-            <section className="space-y-3">
-              <div>
+            <section className="space-y-4">
+              <div className="flex space-x-2 items-center">
+                <div className="w-[30px] h-[30px] rounded bg-[#ff9800] flex flex-row items-center justify-center">
+                  <ChatIcon />
+                </div>
                 <h2>Discussions</h2>
               </div>
               <p className="text-[#bdbdbd]">
