@@ -139,10 +139,42 @@ export default function Home() {
       </section>
 
       {/* Coming soon */}
-      <section className="bg-[#bdbdbd] py-10 mb-4 flex flex-col md:flex-row lg:flex-row justify-between items-center">
-        <div>1</div>
-        <div>2</div>
+      <section className=" bg-[#1a1a1a] md:bg-black lg:bg-black">
+        <div className="max-w-[1280px] m-auto w-[100vh] py-8 mb-4 flex flex-col md:flex-row lg:flex-row justify-between items-center text-center">
+          <div className="max-w-[30rem] m-auto text-xl">
+            <p className="text-[#fa5a5f] inline-block text-base">
+              *Coming soon
+            </p>
+            <p className="text-3xl font-medium">Linkvite Integrations</p>
+            <p className="text-[#bdbdbd] my-[1rem]">
+              Supercharge your workflow by integrating Linkvite with your
+              favorite apps and services.
+            </p>
+          </div>
+          <div>
+            <img
+              src="https://linkvite.io/_next/static/media/all_icons.9f804d71.svg"
+              alt="Icons"
+            />
+          </div>
+        </div>
       </section>
+
+      {/* Ready to use */}
+      <section className="w-full my-40">
+        <div className="p-[1.5rem] text-center items-center bg-gradient-to-r max-w-[768px] rounded-lg mx-6 m-auto md:m-auto from-[#ff6d6d] via-[#5e35b1]  to-[#3f51b5]">
+          <p className="text-[#fa5a5f] inline-block text-base">
+            *Currently in closed beta.
+          </p>
+
+          <p className="text-3xl">Ready to use Linkvite?</p>
+          <div className="bg-[#fa5a5f] py-[0.9rem] rounded-[0.25rem] items-center text-center w-2/6 m-auto my-4">
+            Request Early Access
+          </div>
+        </div>
+        {/* linear-gradient(225deg, #3f51b5 0%, #5e35b1 50%, #ff6d6d 100%) */}
+      </section>
+
       <Footer />
     </main>
   );
