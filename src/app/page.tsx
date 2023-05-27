@@ -17,7 +17,7 @@ export default function Home() {
       <Header />
       <section className="items-center text-center px-10 py-4">
         {/* Hero section */}
-        <section className="p-20  h-[calc(100vh_-_4rem)] items-center text-center space-y-10 m-auto max-w-[1280px]">
+        <section className="p-20 max-h-[calc(100vh_-_4rem)] items-center text-center space-y-10 m-auto max-w-[1280px]">
           <div>
             <span className="text-[#bdbdbd]">
               Press A to request early access.
