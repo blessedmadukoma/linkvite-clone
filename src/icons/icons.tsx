@@ -5,7 +5,7 @@ const FileIcon = () => {
         <svg
           stroke="currentColor"
           fill="currentColor"
-          stroke-width="0"
+          strokeWidth="0"
           viewBox="0 0 512 512"
           // color="#FFFFFF"
           height="22"
@@ -26,7 +26,7 @@ const CollaborationIcon = () => {
       <svg
         stroke="currentColor"
         fill="currentColor"
-        stroke-width="0"
+        strokeWidth="0"
         viewBox="0 0 512 512"
         color="#FFFFFF"
         height="22"
@@ -44,7 +44,7 @@ const BellIcon = () => {
     <svg
       stroke="currentColor"
       fill="currentColor"
-      stroke-width="0"
+      strokeWidth="0"
       viewBox="0 0 512 512"
       color="#FFFFFF"
       height="22"
@@ -61,7 +61,7 @@ const SearchIcon = () => {
     <svg
       stroke="currentColor"
       fill="currentColor"
-      stroke-width="0"
+      strokeWidth="0"
       viewBox="0 0 512 512"
       color="#FFFFFF"
       height="22"
@@ -78,7 +78,7 @@ const AccessIcon = () => {
     <svg
       stroke="currentColor"
       fill="currentColor"
-      stroke-width="0"
+      strokeWidth="0"
       viewBox="0 0 24 24"
       color="#FFFFFF"
       height="22"
@@ -96,7 +96,7 @@ const ChatIcon = () => {
     <svg
       stroke="currentColor"
       fill="currentColor"
-      stroke-width="0"
+      strokeWidth="0"
       viewBox="0 0 512 512"
       color="#FFFFFF"
       height="22"
